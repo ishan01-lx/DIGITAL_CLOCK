@@ -35,7 +35,6 @@
     transform: translateX(-50%);
 }
 
-
 .container {
     width: 800px;
     height: 180px;
@@ -44,6 +43,23 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+.container-2 {
+    height: 50px;
+    width: 150px;
+    position: absolute;
+    top: 20%;
+    left: 70%;
+    transform: translate(-20%, -70%);
+    padding: 20px;
+    font-size: 20px;
+}
+.container-2 i {
+    font-size: 24px;
+    margin: 0;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
 
 .clock {
     width: 100%;
@@ -60,7 +76,7 @@
     content: '';
     width: 180px;
     height: 180px;
-    background: #c40253;
+    background: #dc8809;
     border-radius: 5px;
     position: absolute;
     left: -50px;
@@ -73,12 +89,13 @@
     width: 180px;
     height: 180px;
     background: #f41b75;
-    border-radius: 50%;
+    border-radius: 5px;
     position: absolute;
     right: -30px;
     bottom: -50px;
     z-index: -1;
 }
+
 
 #show {
     font-size: 80px;
@@ -93,3 +110,4 @@
     padding-right: 10x;
     font-size: 20px;
 }
+
